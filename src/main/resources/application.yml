@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//oracle-magellan.cm5sjo7cm7pi.us-east-1.rds.amazonaws.com:1521/ORCL
+    username: magellan
+    password: magellan123
+    driver-class-name: oracle.jdbc.OracleDriver
+     
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create     
+
+      
+server:
+  port: 9014
